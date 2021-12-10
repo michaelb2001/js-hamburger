@@ -13,7 +13,6 @@ elementoScomparsa.addEventListener("click" , function(){
 
     const element = document.querySelector('.hamburger-menu');
 
-    //element.className = "hamburger-menu";
     element.className  = element.className.replace(" active","");
 });
 
